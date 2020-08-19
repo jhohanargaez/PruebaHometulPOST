@@ -9,7 +9,6 @@ public class RecordService {
 
     public String getRandomUUID(){
         String id = UUID.randomUUID().toString();
-
         return id;
     }
 }
